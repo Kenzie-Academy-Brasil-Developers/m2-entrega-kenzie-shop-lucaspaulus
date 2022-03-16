@@ -1,0 +1,92 @@
+body{
+    background-color: #efefef;
+}
+
+.productPriceOld{
+    font-size: 11px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0%;
+    color: red;
+
+    margin: 5px 0;
+    
+}
+
+.productPrice{
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+p, h3{
+    align-self: flex-start;
+}
+
+h3{
+    margin: 5px 0;;
+}
+
+p{
+     margin: 5px 0;
+}
+
+.container-showcase{
+    display: flex;
+    justify-content: center;
+}
+.showcase{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    width: 1114px;
+    margin-top: 50px;
+
+    background-color: white;
+}
+.showcase li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 259px;
+    height: 472px;
+}
+
+.showcase li div{
+    display: flex;
+    width: 100%;
+    margin: 5px;
+}
+
+.showcase li > img{
+    height: 224px; 
+    margin-top: 25px;
+}
+.showcase li div img{
+    width: 16px;
+    
+}
+
+.showcase li button{
+    align-self: flex-start;
+
+    width: 88px;
+    height: 32px;
+    border: 1px solid #9DC2FF;
+    border-radius:4px ;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;    
+    color: #2264D1;
+    letter-spacing: 0.018em
+    
+}
+
+.showcase li button:hover{
+    background-color: #d1d1d1;
+    color: #073888
+}
